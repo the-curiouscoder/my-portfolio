@@ -13,7 +13,7 @@ const Projects = () => {
     {
       title: "Todo List App Project",
       description:
-        "An interactive Todo List application created with JavaScript. It helps users add, edit, and delete tasks, while saving them in the browser using Local Storage. Simple, effective, and user-friendly.",
+        "A simple, effective, and user-friendly interactive task management application built with pure JavaScript. It allows users to fully control their workflow—adding, editing, and deleting tasks—with persistent data storage achieved using the browser's Local Storage API. This project showcases core JavaScript functionality and expert DOM manipulation.",
       // icon: "fas fa-shopping-cart",
       gradient: "from-cyber-gold/20 to-cyber-cyan/20",
       iconColor: "text-cyber-gold",
@@ -21,19 +21,19 @@ const Projects = () => {
       image: todolist, // imported image
     },
     {
-      title: "Portfolio",
+      title: "Portfolio Project",
       description:
-        "This portfolio itself is one of my projects — built with React while learning MERN stack. It highlights my skills in frontend development and serves as a central hub for my work.",
+        "This portfolio is one of my own projects, built with React while learning the MERN stack. It showcases my frontend development skills, highlights key projects, and serves as a central hub for my work. The design is responsive, user-friendly, and reflects my focus on clean UI and modern web practices.",
       // icon: "fas fa-mobile-alt",
       gradient: "from-purple-500/20 to-pink-500/20",
       iconColor: "text-purple-400",
-      demolink: "https://www.google.com/",
+      demolink: "https://the-curiouscoder.github.io/my-portfolio/",
       image: portfolio, // imported image
     },
     {
       title: "Landing Page Project",
       description:
-        "A modern and responsive landing page designed with clean UI and smooth layout. Focused on simplicity, speed, and user engagement.",
+        "A modern and fully responsive landing page featuring a clean UI, smooth layout, and optimized performance. Designed to highlight key information clearly, with a focus on simplicity, speed, and user engagement. Built to adapt seamlessly across all devices.",
       // icon: "fas fa-chart-line",
       gradient: "from-cyber-cyan/20 to-cyber-gold/20",
       iconColor: "text-cyber-cyan",

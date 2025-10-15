@@ -9,21 +9,21 @@ const TechnicalExpertise = () => {
     {
       icon: 'fas fa-code',
       title: 'Frontend Development',
-      description: 'Expert in React, HTML , JavaScript , and modern CSS frameworks. Creating responsive and interactive user interfaces with cutting-edge technologies.',
+      description: 'Expert in React, HTML, JavaScript, and modern CSS frameworks. I create responsive, interactive, and visually appealing user interfaces using cutting-edge technologies. With a focus on clean code and user experience, I aim to build scalable solutions that bring ideas to life and perform seamlessly across all devices.',
       skills: ['React ,', 'Tailwind ,' , 'Bootstrap'],
       progress: 'w-11/12'
     },
     {
       icon: 'fas fa-server',
       title: 'Content & Writing Services',
-      description: 'I help refine and rewrite your text using modern AI tools + manual editing for a natural, polished finish. Whether it’s blogs, essays, emails, or business documents, I ensure your content is clear, professional, and ready to publish.',
+      description: 'I refine and rewrite text using modern AI tools along with manual editing to deliver a natural, polished finish. From blogs and essays to emails and business documents, I make sure your content is clear, professional, and ready to publish.',
       skills: ['Content Rewriting ,', 'Proofreading & Editing ,', 'Resume / CV Design (Basics Templates)'],
       progress: 'w-5/6'
     },
     {
       icon: 'fas fa-paint-brush',
-      title: 'Data Entry & File Conversion',
-      description: 'I provide fast and accurate data entry services in Excel and Word. I also handle file conversions (Word, PDF, Excel) and basic internet research. My focus is on accuracy, formatting, and timely delivery, so you can save time and focus on your main work.',
+      title: 'Data Entry & File Services',
+      description: 'I provide fast and accurate data entry in Excel and Word, along with file conversions (Word, PDF, Excel) and basic internet research. My focus is on accuracy, proper formatting, and timely delivery—helping you save time and concentrate on your core work.',
       skills: ['PDF/Word to Excel or Word ,', 'Copy-paste jobs  ,', 'Web research ,', 'Excel formatting'],
       progress: 'w-10/12'
     }

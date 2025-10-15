@@ -38,10 +38,7 @@ const Hero = () => {
         <p className={`text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto transition-all duration-1000 delay-300 ${
           textVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
-          Building digital experiences that merge creativity with technology. 
-          Specializing in modern web development and cyber systems.
-          Learning and building modern web experiences with HTML, CSS, JavaScript, and React.
-
+         Building digital experiences that combine creativity with technology. I specialize in modern web development and cyber systems, with a focus on learning and creating web solutions using HTML, CSS, JavaScript, and React.
         </p>
         
         <button 

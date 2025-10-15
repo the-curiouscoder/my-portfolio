@@ -9,10 +9,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
-import CustomCursor from './components/CustomCursor';
 import FloatingParticles from './components/FloatingParticles';
-import MatrixBackground from './components/MatrixBackground';
 import Loader from './components/Loader'; // ✅ import your Loader
+// import CustomCursor from './components/CustomCursor';
 
 
 const App = () => {
@@ -57,9 +56,8 @@ const App = () => {
       <Projects />
       <Contact />
       <Footer />
-      <CustomCursor />    
       <FloatingParticles /> 
-      <MatrixBackground />
+      {/* <CustomCursor/> */}
     
       <div className="particles fixed inset-0 pointer-events-none z-0">
         <div className="particle" style={{left: '10%', top: '20%', width: '4px', height: '4px', animationDelay: '0s'}}></div>

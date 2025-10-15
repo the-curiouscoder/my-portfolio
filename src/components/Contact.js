@@ -59,9 +59,7 @@ const Contact = () => {
           <div>
             <h3 className="text-3xl font-bold mb-6 text-cyber-gold font-cyber">Let's Work Together</h3>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              Ready to bring your ideas to life? I'm always excited to work on
-              new projects and collaborate with amazing people. Let's create
-              something extraordinary together and push the boundaries of technology.
+             Ready to bring your ideas to life? I’m always excited to collaborate on new projects and turn creative concepts into reality. Together, we can build something impactful and push the boundaries of technology.
             </p>
 
             <div className="space-y-6">
@@ -84,7 +82,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="cyber-card p-8 rounded-lg relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyber-gold via-cyber-cyan to-neon-pink"></div>
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6 p-6 m-4 bg-black/40 rounded-lg">
               <div>
                 <label className="block text-cyber-gold font-semibold mb-2">Full Name</label>
                 <input
@@ -93,7 +91,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="Enter your full name"
-                  className="cyber-input w-full rounded-lg px-4 py-3 text-white text-base focus:border-cyber-gold outline-none transition-all duration-300"
+                  className="cyber-input w-full rounded-lg px-3 py-3 text-white text-base focus:border-cyber-gold outline-none transition-all duration-300"
                   required
                 />
               </div>
@@ -106,7 +104,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="Enter your email address"
-                  className="cyber-input w-full rounded-lg px-4 py-3 text-white text-base focus:border-cyber-gold outline-none transition-all duration-300"
+                  className="cyber-input w-full rounded-lg px-3 py-3 text-white text-base focus:border-cyber-gold outline-none transition-all duration-300"
                   required
                 />
               </div>
@@ -117,7 +115,7 @@ const Contact = () => {
                   name="projectType"
                   value={formData.projectType}
                   onChange={handleChange}
-                  className="cyber-input w-full rounded-lg px-4 py-3 text-white text-base focus:border-cyber-gold bg-black outline-none transition-all duration-300"
+                  className="cyber-input w-full rounded-lg px-3 py-3 text-white text-base focus:border-cyber-gold bg-black outline-none transition-all duration-300"
                   
                 >
                   <option value="" >Select project type</option>
@@ -138,7 +136,7 @@ const Contact = () => {
                   onChange={handleChange}
                   placeholder="Tell me about your project..."
                   rows="6"
-                  className="cyber-input w-full rounded-lg px-4 py-3 text-white text-base focus:border-cyber-gold outline-none transition-all duration-300 resize-none"
+                  className="cyber-input w-full rounded-lg px-3 py-3 text-white text-base focus:border-cyber-gold outline-none transition-all duration-300 resize-none"
                   required
                 />
               </div>
