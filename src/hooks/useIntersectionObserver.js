@@ -3,9 +3,12 @@ import { useState, useEffect, useRef } from 'react';
 
 export const useIntersectionObserver = (options = {}) => {
   const [isVisible, setIsVisible] = useState(false);
-  const ref = useRef();
+  const ref = useRef(null);
 
   useEffect(() => {
+    const node = ref.current; // store current node once
+    if (!node) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -15,18 +18,14 @@ export const useIntersectionObserver = (options = {}) => {
       {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px',
-        ...options
+        ...options,
       }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
+    observer.observe(node);
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
-      }
+      observer.unobserve(node); // cleanup correctly
     };
   }, [options]);
 
