@@ -2,7 +2,7 @@
   "name": "cyber-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://the-curiouscoder.github.io/my-portfolio",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@testing-library/dom": "^10.4.1",
