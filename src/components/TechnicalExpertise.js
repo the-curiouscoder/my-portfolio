@@ -10,21 +10,18 @@ const TechnicalExpertise = () => {
       icon: 'fas fa-code',
       title: 'Frontend Development',
       description: 'Expert in React, HTML, JavaScript, and modern CSS frameworks. I create responsive, interactive, and visually appealing user interfaces using cutting-edge technologies. With a focus on clean code and user experience, I aim to build scalable solutions that bring ideas to life and perform seamlessly across all devices.',
-      skills: ['React ,', 'Tailwind ,' , 'Bootstrap'],
       progress: 'w-11/12'
     },
     {
       icon: 'fas fa-server',
       title: 'Content & Writing Services',
       description: 'I refine and rewrite text using modern AI tools along with manual editing to deliver a natural, polished finish. From blogs and essays to emails and business documents, I make sure your content is clear, professional, and ready to publish.',
-      skills: ['Content Rewriting ,', 'Proofreading & Editing ,', 'Resume / CV Design (Basics Templates)'],
       progress: 'w-5/6'
     },
     {
       icon: 'fas fa-paint-brush',
       title: 'Data Entry & File Services',
       description: 'I provide fast and accurate data entry in Excel and Word, along with file conversions (Word, PDF, Excel) and basic internet research. My focus is on accuracy, proper formatting, and timely delivery—helping you save time and concentrate on your core work.',
-      skills: ['PDF/Word to Excel or Word ,', 'Copy-paste jobs  ,', 'Web research ,', 'Excel formatting'],
       progress: 'w-10/12'
     }
   ];
@@ -52,7 +49,7 @@ const TechnicalExpertise = () => {
   );
 };
 
-const ExpertiseCard = ({ icon, title, description, skills, progress, isVisible, delay }) => {
+const ExpertiseCard = ({ icon, title, description,  progress, isVisible, delay }) => {
   return (
     <div 
       className={`cyber-card p-8 rounded-lg group transition-all duration-700 ${
@@ -67,17 +64,6 @@ const ExpertiseCard = ({ icon, title, description, skills, progress, isVisible, 
       <h3 className="text-2xl font-bold mb-4 text-cyber-gold font-cyber">{title}</h3>
       
       <p className="text-gray-300 mb-6 leading-relaxed">{description}</p>
-      
-      <div className="flex flex-wrap gap-2 mb-4">
-        {skills.map((skill, index) => (
-          <span 
-            key={index}
-            className="bg-gradient-to-r from-cyber-gold/20 to-cyber-cyan/20 px-3 py-1 rounded-full text-sm border border-cyber-gold/30"
-          >
-            {skill}
-          </span>
-        ))}
-      </div>
       
       <div className="h-2 bg-cyber-gray rounded-full overflow-hidden">
         <div className={`skill-progress ${progress} transition-all duration-2000 delay-500`}></div>
