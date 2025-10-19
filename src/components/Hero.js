@@ -1,5 +1,5 @@
 // components/Hero.js
-import pic from '../assets/gull.jpg';
+import pic from '../assets/image.png';
 import React, { useEffect, useState } from 'react';
 
 const Hero = () => {
