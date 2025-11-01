@@ -27,7 +27,7 @@ const Projects = () => {
       // icon: "fas fa-mobile-alt",
       gradient: "from-purple-500/20 to-pink-500/20",
       iconColor: "text-purple-400",
-      demolink: "https://the-curiouscoder.github.io/my-portfolio/",
+      demolink: "https://curiouscoder-portfolio.netlify.app/",
       image: portfolio, // imported image
     },
     {
