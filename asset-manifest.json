@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.0ee47993.css",
-    "main.js": "/my-portfolio/static/js/main.6aaacd4f.js",
+    "main.js": "/my-portfolio/static/js/main.742c2e17.js",
     "static/media/portfolio.png": "/my-portfolio/static/media/portfolio.e5b12237b60d43f3c106.png",
     "static/media/landingpage.png": "/my-portfolio/static/media/landingpage.2d1593a0d5384e0ac6aa.png",
-    "static/media/gull.jpg": "/my-portfolio/static/media/gull.f59cd142c1ece43d6e89.jpg",
     "static/media/todolist.png": "/my-portfolio/static/media/todolist.457a349b63ad83aef472.png",
+    "static/media/image.png": "/my-portfolio/static/media/image.3a07e6f3bb3657ea7b7d.png",
     "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.8ae0d37556ff1e685de2.woff2",
     "static/media/logo2.jpg": "/my-portfolio/static/media/logo2.2fca1c18ec7198c0ccac.jpg",
     "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.1c5c7716b05754cb4eab.woff2",
+    "static/media/calculator.jpg": "/my-portfolio/static/media/calculator.b8fd0773d67041f424bb.jpg",
     "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.6f05ca9ab7b5345dbc07.woff2",
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/my-portfolio/index.html",
     "main.0ee47993.css.map": "/my-portfolio/static/css/main.0ee47993.css.map",
-    "main.6aaacd4f.js.map": "/my-portfolio/static/js/main.6aaacd4f.js.map"
+    "main.742c2e17.js.map": "/my-portfolio/static/js/main.742c2e17.js.map"
   },
   "entrypoints": [
     "static/css/main.0ee47993.css",
-    "static/js/main.6aaacd4f.js"
+    "static/js/main.742c2e17.js"
   ]
 }
