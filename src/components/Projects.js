@@ -3,6 +3,7 @@ import React from "react";
 import landingpage from '../assets/landingpage.png';
 import portfolio from '../assets/portfolio.png';
 import todolist from '../assets/todolist.png';
+import calculator from '../assets/calculator.jpg';
 import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 
 const Projects = () => {
@@ -17,7 +18,7 @@ const Projects = () => {
       // icon: "fas fa-shopping-cart",
       gradient: "from-cyber-gold/20 to-cyber-cyan/20",
       iconColor: "text-cyber-gold",
-      demolink: "https://the-curiouscoder.github.io/Todo-list/",
+      demolink: "https://cyberdevtodolist.netlify.app/",
       image: todolist, // imported image
     },
     {
@@ -37,9 +38,18 @@ const Projects = () => {
       // icon: "fas fa-chart-line",
       gradient: "from-cyber-cyan/20 to-cyber-gold/20",
       iconColor: "text-cyber-cyan",
-      demolink: "https://the-curiouscoder.github.io/Landing_page/",
+      demolink: "https://cyberdevlandingpage.netlify.app/",
       image: landingpage, // imported image
     },
+    {
+      title: "Modern Calculator Project",
+      description:"A modern and responsive calculator built with HTML, CSS, and JavaScript. It features a clean interface, smooth animations, and all essential arithmetic operations. Designed for fast performance and perfect usability on any device.",
+      // icon: "fas fa-chart-line",
+      gradient: "from-cyber-cyan/20 to-cyber-gold/20",
+      iconColor: "text-cyber-cyan",
+      demolink: "https://cyberdevcalculator.netlify.app/",
+      image: calculator, // imported image
+    }
   ];
 
   return (
