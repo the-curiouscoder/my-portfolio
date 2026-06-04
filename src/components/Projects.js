@@ -44,7 +44,7 @@ const Projects = () => {
       description: (<> <strong>(Semester Project)</strong> This project presents a Distributed Constraint Solver designed using HTML, CSS, and JavaScript. The system is capable of solving different NP-hard problems such as N-Queens, Sudoku, SAT, Graph Coloring, and Scheduling Problems.</>),
       gradient: "from-cyber-cyan/20 to-cyber-gold/20",
       iconColor: "text-cyber-cyan",
-      demolink: "https://the-curiouscoder.github.io/Distributed_Constraints_Solver-Semester_project/",
+      demolink: "https://distributed-constraints-solver-seme.vercel.app/",
       image: csp_solver,
     }
   ];
