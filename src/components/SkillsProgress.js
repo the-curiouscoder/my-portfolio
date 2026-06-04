@@ -10,7 +10,7 @@ const skillsData = [
   { name: "JavaScript (ES6+)", percentage: 70 },
   { name: "React.js (Beginner)", percentage: 65 },
   { name: "Node.js / Express (Learning)", percentage: 60 },
-  { name: "MongoDB / Database Design (Learning)", percentage: 60 },
+  { name: "SQL / MongoDB / Database Design (Learning)", percentage: 60 },
 
   { name: "UI/UX Design (Figma, Canva basics)", percentage: 65 },
   { name: "Git / GitHub", percentage: 70 },
