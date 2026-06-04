@@ -1,7 +1,6 @@
 // src/components/Projects.js
 import React from "react";
 import landingpage from '../assets/landingpage.png';
-import portfolio from '../assets/portfolio.png';
 import todolist from '../assets/todolist.png';
 import calculator from '../assets/calculator.jpg';
 import csp_solver from '../assets/D-CSP.png';
@@ -21,15 +20,7 @@ const Projects = () => {
       demolink: "https://cyberdevtodolist.netlify.app/",
       image: todolist, // imported image
     },
-    {
-      title: "Portfolio Project",
-      description:
-        "This portfolio is one of my own projects, built with React while learning the MERN stack. It showcases my frontend development skills, highlights key projects, and serves as a central hub for my work. The design is responsive, user-friendly, and reflects my focus on clean UI and modern web practices.",
-      gradient: "from-purple-500/20 to-pink-500/20",
-      iconColor: "text-purple-400",
-      demolink: "https://curiouscoder-portfolio.netlify.app/",
-      image: portfolio, // imported image
-    },
+   
     {
       title: "Landing Page Project",
       description:
