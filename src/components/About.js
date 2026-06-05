@@ -1,6 +1,6 @@
 // src/components/About.js
 import React from 'react';
-import logo from '../assets/logo2.jpg'
+import logo from '../assets/image.png'
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 const About = () => {
@@ -33,12 +33,12 @@ const About = () => {
             </div>
           </div>
           
-          <div className={`relative transition-all duration-700 delay-300 ${
+          <div className={ `style={{ width: '500px', height: '500px' }} object-cover overflow-hidden aspect-square relative transition-all duration-700 delay-300 ${
             isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
           }`}>
             
             <div>
-              <img className="w-full h-100 bg-gradient-to-br from-cyber-gold/20 to-cyber-cyan/20 rounded-lg flex items-center justify-center cyber-card" src={logo} alt="hj" />
+              <img className="w-full h-full object-cover  overflow-hidden bg-gradient-to-br from-cyber-gold/20 to-cyber-cyan/20 rounded-lg flex items-center justify-center cyber-card" src={logo} alt="hj" />
             </div>
           </div>
         </div>

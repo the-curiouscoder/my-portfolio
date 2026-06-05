@@ -42,7 +42,7 @@ const Contact = () => {
   const contactInfo = [
     { icon: 'fas fa-envelope', label: 'Email', value: 'gullraizhaider2007@gmail.com', gradient: 'from-cyber-cyan to-cyber-gold' },
     { icon: 'fas fa-phone', label: 'Phone', value: '+92 323 0149044', gradient: 'from-neon-pink to-cyber-cyan' },
-    { icon: 'fas fa-map-marker-alt', label: 'Location', value: 'Pakistan , Hafizabad', gradient: 'from-cyber-gold to-neon-pink' }
+    { icon: 'fas fa-map-marker-alt', label: 'Location', value: 'Lahore , Pakistan', gradient: 'from-cyber-gold to-neon-pink' }
   ];
 
  
