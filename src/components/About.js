@@ -41,7 +41,17 @@ const About = () => {
               <img className="w-full h-full object-cover  overflow-hidden bg-gradient-to-br from-cyber-gold/20 to-cyber-cyan/20 rounded-lg flex items-center justify-center cyber-card" src={logo} alt="hj" />
             </div>
           </div>
-        </div>
+        </div>        # 1. Check what files changed
+        git status
+        
+        # 2. Stage all changes
+        git add .
+        
+        # 3. Commit with a message
+        git commit -m "Your descriptive commit message"
+        
+        # 4. Push to GitHub
+        git push origin main
       </div>
     </section>
   );
